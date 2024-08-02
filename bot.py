@@ -5,7 +5,7 @@ from aiogram.filters.command import Command
 from aiogram import F
 import requests
 from bs4 import BeautifulSoup
-from parse import 
+from parse import Bit,Eth
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 # Объект бота
