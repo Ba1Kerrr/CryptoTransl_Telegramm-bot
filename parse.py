@@ -1,4 +1,4 @@
-import requests
+'''import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -30,3 +30,6 @@ def Eur():
         soup_usd = BeautifulSoup(page_usd.text,"html.parser")
         search_price_usd = soup_usd.find('td', class_='pid-1-last').text
         return 'EUR costs ' + search_price_usd + ' $'
+'''
+import ccxt.async_support as ccxt
+
